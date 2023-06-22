@@ -1,6 +1,9 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, } from "react-icons/fa";
+import {useNavigate, Link} from 'react-router-dom';
+
 const Media = () => {
+
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
@@ -9,10 +12,7 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
+              <FaFacebookF to="/https://www.facebook.com/palasti.pierre/'" /> 
             </span>
             <span className="bannerIcon">
               <FaLinkedinIn />

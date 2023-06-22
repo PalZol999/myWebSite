@@ -11,53 +11,76 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2013 - 2023</p>
+          <h2 className="text-4xl font-bold">Relevant Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] 
+        border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Jr. Manual Tester, QA"
+            subTitle="GG development - (2023 - Present)"
+            result="Budapest"
+            des="Manual testing of a
+            paying application (Twint) on Android and iOS devices. I’m mostly doing
+            sanity, smoke and regression testing. The test cases and defects are logged in
+            Jira. I’m working in an Agile (Sprint based) environment."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="IOS Advisor Tier 1 -"
+            subTitle="IBM, - (2013 - 2014)"
+            result="Budapest"
+            des="Trouble shooting iOS (iPhone, iPad, iPod) devices by phone in French language."
           />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+           <ResumeCard
+            title="IT servicedesk agent Level 1"
+            subTitle="Unisys- (2012 - 2013)"
+            result="Budapest"
+            des="IT trouble shooting in
+            English and French languages. - The main task was to resolve IT issues by
+            phone (Hardware, software, installation, authorization issues)."
           />
         </div>
       </div>
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-4xl font-bold">Trainer Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
+          <h2 className="text-4xl font-bold">Education/Training</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-[1000px] border-l-[6px] 
+        border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Complete React Developer"
+            subTitle="2023"
+            result="Udemy"
+            des="ReactJS based webshop, by using React Hooks, Router and Redux. 
+            I'm currently doing this course. Please note: a TypeScript session is included"
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="JavaScript: The Advanced Concepts"
+            subTitle="2023"
+            result="Udemy"
+            des="Basic knowledge of OOP and Functional programing with
+            JavaScript.
+            From understanding what is primitive data type to the “this”
+            key word. Defining closure, higher order function, call back
+            and many more. With a little touch of data structure and
+            algorith."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="The Web Developer Bootcamp 2023 (with ReactJS
+              extension)"
+            subTitle="2023"
+            result="Udemy"
+            des="I’ve leraned to used: HTML5, CSS3 (with Bootstrap), JavaScript(with
+              JQuery), NodeJS, ExpressJS, MongoDB(with Mongoose)."
+          />
+           <ResumeCard
+            title="Software UI Automation Testing using Java-Selenium
+            Web Driver from A-Z"
+            subTitle="2022"
+            result="Udemy"
+            des="I’ve learned basic Java to using Selenium framework. The course was based
+            mostly on web browser automation testing"
           />
         </div>
       </div>

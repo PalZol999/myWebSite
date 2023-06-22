@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Media from './Media';
+
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -30,8 +30,6 @@ const LeftBanner = () => {
           I'm a passionate of web design and tech
         </p>
       </div>
-     {/* Media */}
-     <Media />
     </div>
   );
 }
