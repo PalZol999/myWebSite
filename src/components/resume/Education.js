@@ -9,34 +9,39 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* part one */}
+  
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+        <ResumeCard
+            title="Jr. Manual Tester, QA"
+            subTitle="GG development - (2023 - Present)"
+            result="Budapest"
+            des="Manual testing of a
+            paying application (Twint) on Android and iOS devices. I’m mostly doing
+            sanity, smoke and regression testing. The test cases and defects are logged in
+            Jira. I’m working in an Agile (Sprint based) environment."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="IOS Advisor Tier 1 -"
+            subTitle="IBM, - (2013 - 2014)"
+            result="Budapest"
+            des="Trouble shooting iOS (iPhone, iPad, iPod) devices by phone in French language."
           />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+           <ResumeCard
+            title="IT servicedesk agent Level 1"
+            subTitle="Unisys- (2012 - 2013)"
+            result="Budapest"
+            des="IT trouble shooting in
+            English and French languages. - The main task was to resolve IT issues by
+            phone (Hardware, software, installation, authorization issues)."
           />
         </div>
       </div>
-      {/* part Two */}
+    
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
