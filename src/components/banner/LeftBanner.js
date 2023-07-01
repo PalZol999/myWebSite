@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I'm starting my journey as a Front End developer and
+          I'm starting my journey as a Frontend developer and
           I'm a passionate of web design and tech
         </p>
       </div>

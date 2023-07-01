@@ -22,9 +22,9 @@ const Contact = () => {
 
         <div className="flex flex-col gap-4">
           <h3 className="text-3xl font-bold text-white">Zoltan Palasti</h3>
-          <p className="text-lg font-normal text-gray-400">Jr. Front End Developer</p>
+          <p className="text-lg font-normal text-gray-400">Jr. Frontend Developer</p>
           <p className="text-base text-gray-400 tracking-wide">I am self-taught web developer 
-          who's got a passion for Front End development and design</p>
+          who's got a passion for Frontend development and design</p>
           <p className="text-base text-gray-400 flex items-center gap-2">
             Phone: <span className="text-lightText">+36 702754418</span>
           </p>
