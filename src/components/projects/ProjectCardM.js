@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { gitHub } from "../../assets/index";
+import { gitHub, web } from "../../assets/index";
 
 
 const ProjectsCardM = ({ title, des, src }) => {
@@ -25,7 +25,8 @@ const ProjectsCardM = ({ title, des, src }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/Monsters-Rolodex')}/>
+              <img src={web} alt="gitHub" onClick={() => openInNewTab('https://monsters-rolodex-neon.vercel.app/')}/>
+              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/Monsters-Rolodex')}/>              
               </span>
             </div>
           </div>
