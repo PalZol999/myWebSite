@@ -1,8 +1,8 @@
 import React from 'react'
-import { gitHub } from "../../assets/index";
+import { gitHub,web } from "../../assets/index";
 
 
-const ProjectsCard = ({ title, des, src }) => {
+const ProjectsCardBlog = ({ title, des, src }) => {
   const openInNewTab = (url) => {
     window.open(url, '_blank', 'noreferrer');
   };
@@ -23,8 +23,10 @@ const ProjectsCard = ({ title, des, src }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/Yelpcamp')}/>
+              <span className="text-lg w-10 h-10  inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
+              <img src={web} alt="web" onClick={() => openInNewTab('https://nextjs-blog-liard-five-73.vercel.app/')}/>
+              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/nextjs-blog')}/>
+              
               </span>
             </div>
           </div>
@@ -37,4 +39,4 @@ const ProjectsCard = ({ title, des, src }) => {
   );
 }
 
-export default ProjectsCard
+export default ProjectsCardBlog

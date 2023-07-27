@@ -1,9 +1,11 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFive, projectFour } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import ProjectsCardM from './ProjectCardM';
 import ProjectsCardClth from './ProjectCardClth';
+import ProjectsCardApp  from './ProjectCardApp';
+import ProjectsCardBlog  from './ProjectCardBlog';
 
 const Projects = () => {
   return (
@@ -35,6 +37,20 @@ const Projects = () => {
           des=" Little palyfull ReactJs based webpage. My first attempt by using React.
           You can try to find the monster by typing his/her name"
           src={projectThree}
+        />
+
+        <ProjectsCardApp
+          title="ClassiFy"
+          des=" This is my very first app that I created entirely on my own. The main objective is to allow users to log in and view the Workout of the Day. 
+          Please be aware that this website is currently under construction, and some elements are still in development."
+          src={projectFour}
+        />
+
+        <ProjectsCardBlog
+          title="In2_da_Void:Blog"
+          des="This is my personal Tech Blog built using ReactJS and TypeScript. I endeavor to update it with new posts as frequently as possible. 
+          My plan is to gradually enhance the interface over time."
+          src={projectFive}
         />
     
       </div>

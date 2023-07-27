@@ -1,8 +1,8 @@
 import React from 'react'
-import { gitHub } from "../../assets/index";
+import { gitHub,web } from "../../assets/index";
 
 
-const ProjectsCard = ({ title, des, src }) => {
+const ProjectsCardApp = ({ title, des, src }) => {
   const openInNewTab = (url) => {
     window.open(url, '_blank', 'noreferrer');
   };
@@ -24,7 +24,8 @@ const ProjectsCard = ({ title, des, src }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/Yelpcamp')}/>
+              <img src={web} alt="Web" onClick={() => openInNewTab('https://classify-app-topaz.vercel.app/')}/>
+              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/ClassifyApp')}/>
               </span>
             </div>
           </div>
@@ -37,4 +38,4 @@ const ProjectsCard = ({ title, des, src }) => {
   );
 }
 
-export default ProjectsCard
+export default ProjectsCardApp
