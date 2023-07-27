@@ -48,7 +48,7 @@ const Projects = () => {
 
         <ProjectsCardBlog
           title="In2_da_Void:Blog"
-          des="This is my personal Tech Blog built using ReactJS and TypeScript. I endeavor to update it with new posts as frequently as possible. 
+          des="This is my personal Tech Blog built using Next and TypeScript. I endeavor to update it with new posts as frequently as possible. 
           My plan is to gradually enhance the interface over time."
           src={projectFive}
         />
