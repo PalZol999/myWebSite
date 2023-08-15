@@ -1,11 +1,14 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFive, projectFour } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFive, projectFour, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import ProjectsCardM from './ProjectCardM';
 import ProjectsCardClth from './ProjectCardClth';
 import ProjectsCardApp  from './ProjectCardApp';
 import ProjectsCardBlog  from './ProjectCardBlog';
+import ProjectNative  from './ProjectCardNative';
+
+
 
 const Projects = () => {
   return (
@@ -51,6 +54,12 @@ const Projects = () => {
           des="This is my personal Tech Blog built using Next and TypeScript. I endeavor to update it with new posts as frequently as possible. 
           My plan is to gradually enhance the interface over time."
           src={projectFive}
+        />
+
+        <ProjectNative
+          title="Workout - Native App"
+          des="This is a workout app made with React Native and Typescript. Choose your workout and start the countdown for some fun"
+          src={projectSix}
         />
     
       </div>
