@@ -43,9 +43,11 @@ const Projects = () => {
         />
 
         <ProjectsCardApp
-          title="ClassiFy"
-          des=" This is my very first app that I created entirely on my own. The main objective is to allow users to log in and view the Workout of the Day. 
-          Please be aware that this website is currently under construction, and some elements are still in development."
+          title="Reg-&-Move"
+          des="This is my very first app that I created entirely on my own. 
+          Users can log in and choose the coach they want to work with. 
+          The coach can then confirm the trainee's attendance. 
+          This app is currently live and being used by my trainees for booking my courses."
           src={projectFour}
         />
 

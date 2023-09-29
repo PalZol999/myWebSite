@@ -24,8 +24,8 @@ const ProjectsCardApp = ({ title, des, src }) => {
             </h3>
             <div className="flex gap-2">
               <span className="text-lg w-10 h-10 inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-              <img src={web} alt="Web" onClick={() => openInNewTab('https://classify-app-topaz.vercel.app/')}/>
-              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/ClassifyApp')}/>
+              <img src={web} alt="Web" onClick={() => openInNewTab('https://reg-and-move.vercel.app//')}/>
+              <img src={gitHub} alt="gitHub" onClick={() => openInNewTab('https://github.com/PalZol999/RegandMove')}/>
               </span>
             </div>
           </div>
